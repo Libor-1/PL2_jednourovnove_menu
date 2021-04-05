@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+li a {
+    color: red;
+    border: black solid 1px;
+    display: block;
+    border-radius: 8px;
+    background-color: white;
+    text-align:center;
+    line-height:20px;
+    margin-bottom: 2px;
+    width:200px;
+    height:40px;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+  
+  a:hover {
+    background-color: blue;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .druha li {
+    display: inline-block;
+    
+  }
+  
